@@ -1,0 +1,114 @@
+/*Général*/
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: black;
+  --primary-as-rgb: 0, 0, 0;
+  --font :
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  color: black;
+  line-height: 1.6;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+a {
+  color: var(--primary);
+}
+
+/*Menu*/
+nav {
+  width: 100%;
+  background-color: var(--primary);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav div {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  width: fit-content;
+
+}
+
+nav li {
+  list-style-type: none;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: white;
+}
+
+/*Animation menu*/
+.menu-link:hover {
+  border-top: 5px solid white;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.menu-link {
+  transition: background-color 0.4s;
+}
+
+nav li:hover a {
+  padding: 15px 30px 20px 30px;
+}
+
+
+/*Portfolio/Contact*/
+.images {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  height: 30vh;
+  position: left;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.images#paysage {
+  background-image: url(../Pictures/paysage.png);
+}
+
+.paragraphe {
+  font-size: 17px;
+  color: var(--primary);
+  font-style: normal;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  line-height: 20px;
+}
