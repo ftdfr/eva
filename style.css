@@ -92,17 +92,16 @@ nav li:hover a {
 
 /*Portfolio/Contact*/
 .images {
-  margin-left: 20px;
+  margin-left: 30px;
   margin-bottom: 10px;
-  margin-right: 0px;
-  height: 30vh;
-  width: 100%;
+  width: 100vh;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
-.images#paysage {
-  background-image: url(paysage.png);
+.video {
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .paragraphe {
