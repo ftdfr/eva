@@ -114,3 +114,10 @@ nav li:hover a {
   line-height: 20px;
   text-align: justify;
 }
+
+@media only screen and (max-width: 730px) {
+  .video {
+    width: 320px;
+    height: 180px;
+  }
+}
